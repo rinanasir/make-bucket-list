@@ -1,0 +1,52 @@
+[
+    {
+        "key": "ICE01AURORA",
+        "continent": "Europe",
+        "name": "Iceland",
+        "populaton": 356991,
+        "place": "Aurora Borealis",
+        "info": "The northern lights",
+        "img": "https://media.istockphoto.com/photos/northern-light-aurora-borealis-at-kirkjufell-in-iceland-kirkjufell-picture-id1058181722?k=20&m=1058181722&s=612x612&w=0&h=Pifd_IPr-0FgVNaOHSnTlMUw65r95roOKY21oUS7JNY=",
+        "cost": 5000
+    },
+    {
+        "key": "BDCOX120",
+        "continent": "Asia",
+        "name": "Bangladesh",
+        "populaton": 166701437,
+        "place": "Cox's Bazar",
+        "info": "Worlds longest sea beach",
+        "img": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/03/16/coxs_bazar_0.jpg?itok=gMrcn2Bp&timestamp=1584350574",
+        "cost": 2000
+    },
+    {
+        "key": "DB34PALM",
+        "continent": "Asia",
+        "name": "Dubai",
+        "populaton": 34150183,
+        "place": "Palm Jumeirah",
+        "info": "A man made island",
+        "img": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2008/04/25/jumeirah10a.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=36fc644e49040717e94b5b7a28e06fca",
+        "cost": 6000
+    },
+    {
+        "key": "BZ5RIOD",
+        "continent": "South America",
+        "name": "Brazil",
+        "populaton": 213372000,
+        "place": "Rio de Janeiro",
+        "info": "Christ the Redeemer Statue",
+        "img": "https://www.airpano.com/files/rio_christ_vr_01_big.jpg",
+        "cost": 7000
+    },
+    {
+        "key": "CND04TRN",
+        "continent": "North America",
+        "name": "Canada",
+        "populaton": 38148000,
+        "place": "Lake Louise",
+        "info": "A lake made from glacier water",
+        "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
+        "cost": 5000
+    }
+]
