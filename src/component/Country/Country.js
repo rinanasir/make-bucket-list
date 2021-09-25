@@ -1,3 +1,5 @@
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Country.css';
 
@@ -16,7 +18,7 @@ const Country = (props) => {
                 <p>Population: {populaton}</p>
             </div>
             <div>
-                <button type="button" class="btn btn-secondary">Add to list</button>
+                <button type="button" class="btn btn-secondary"><FontAwesomeIcon icon={faShoppingCart} /> Add to list</button>
             </div>
         </div>
     );

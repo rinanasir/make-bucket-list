@@ -34,7 +34,7 @@
         "continent": "South America",
         "name": "Brazil",
         "populaton": 213372000,
-        "place": "Rio de Janeiro",
+        "place": "Rio",
         "info": "Christ the Redeemer Statue",
         "img": "https://www.airpano.com/files/rio_christ_vr_01_big.jpg",
         "cost": 7000
@@ -45,7 +45,7 @@
         "name": "Canada",
         "populaton": 38148000,
         "place": "Lake Louise",
-        "info": "A lake made from glacier water",
+        "info": "lake made with glacier water",
         "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
         "cost": 5000
     }
