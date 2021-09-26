@@ -21,10 +21,11 @@
     background-color: rgb(250, 232, 199);
 }
 .btn-style{
-    background-color: rgb(245, 128, 86);
+    background-color: rgb(245, 138, 99);
     border: 1px solid whitesmoke;
     font-style: inherit;
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
