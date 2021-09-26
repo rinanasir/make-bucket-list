@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { faDollarSign, faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Country from '../Country/Country';
+import BucketList from '../BucketList/BucketList';
 import './Countries.css';
 
 const Countries = () => {
@@ -34,19 +33,8 @@ const Countries = () => {
                     </Country>)
                 }
             </div>
-            <div className="bucket-list">
-                <div>
-                    <h2>Bucket<span className="text-color">List</span></h2>
-                </div>
-                <hr />
-                <div className="bucketlist-info">
-                    <h5><FontAwesomeIcon icon={faGlobe} /> Country added: {bucketlist.length}</h5>
-                    <h5>Total cost: <FontAwesomeIcon icon={faDollarSign} /> <span>0</span></h5>
-                </div>
-                <hr />
-                <div className="bucketlist-info">
-                    <li>place</li>
-                </div>
+            <div>
+                <BucketList bucketlist={bucketlist}></BucketList>
             </div>
         </div>
     );
