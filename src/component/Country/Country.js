@@ -16,11 +16,11 @@ const Country = (props) => {
             </div>
             <div className="country-info">
                 <p><span className="fw-bold fs-3">Country: </span><span className="text-color fw-bold fs-3">{name}</span></p>
-                <p><span className="fw-bold">Visti: </span> {place}</p>
+                <p><span className="fw-bold">Population: </span> {population}</p>
+                <p><span className="fw-bold">Visit: </span> <span className="text-color fw-bold">{place}</span></p>
                 <p><span className="fw-bold">About: </span> {info}</p>
                 <p><span className="fw-bold">Cost: </span> ${cost}</p>
                 <p><span className="fw-bold">Continent: </span> {continent}</p>
-                <p><span className="fw-bold">Population: </span> {population}</p>
             </div>
             <div>
                 <button

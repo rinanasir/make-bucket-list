@@ -1,14 +1,14 @@
 .country{
     background-color: whitesmoke;
-    
     border-radius: 10px;
     padding-bottom: 10px;
-    box-shadow: 10px 10px 20px gray;
+    
 }
 .country img{
     padding: 10px;
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
 .country-info{
     text-align: left;
@@ -19,6 +19,7 @@
 }
 .country:hover{
     background-color: rgb(250, 232, 199);
+    box-shadow: 10px 10px 20px gray;
 }
 .btn-style{
     background-color: rgb(245, 138, 99);
