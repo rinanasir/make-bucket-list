@@ -37,17 +37,17 @@
         "place": "Lake Louise",
         "info": "Lake made with glacier water",
         "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
-        "cost": 4490
+        "cost": 6890
     },
     {
         "key": "EGP90PYR",
         "continent": "Asia & Africa",
         "name": "Egypt",
         "population": 101993000,
-        "place": "Lake Louise",
-        "info": "Lake made with glacier water",
-        "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
-        "cost": 4490
+        "place": "The Great Pyramid & Sphinx of Giza",
+        "info": "The oldest of the Seven Wonders",
+        "img": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/d21b085ef2ce77c4331c462d385aed66315ae019/big-c0028d755da3df7d7160a6015869431d.jpg",
+        "cost": 4500
     },
     {
         "key": "ICE01RORA",

@@ -1,5 +1,7 @@
 .bucket-list{
-    padding: 10px;
+    background-color: rgb(250, 232, 199);
+    padding: 20px;
+    border-radius: 10px;
 }
 .text-color{
     color: rgb(241, 82, 24);

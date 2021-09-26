@@ -33,7 +33,7 @@ const Countries = () => {
                     </Country>)
                 }
             </div>
-            <div>
+            <div className="list">
                 <BucketList bucketlist={bucketlist}></BucketList>
             </div>
         </div>
