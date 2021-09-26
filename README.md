@@ -1,6 +1,6 @@
 # Welcome to BuckleUp
 
-This project is created with bootstrap and react [BuckleUp](https://make-bucketlist.netlify.app/).
+This [BuckleUp](https://make-bucketlist.netlify.app/) project is created with bootstrap and react.
 
 ## Available Features in the website
 
