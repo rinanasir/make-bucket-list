@@ -7,7 +7,7 @@ const Country = (props) => {
     // console.log(props);
 
     // using destructuring to get object's properties
-    const { name, place, info, cost, continent, img } = props.country;
+    const { name, place, info, cost, continent, img, population } = props.country;
 
     return (
         <div className="country ">
@@ -20,6 +20,7 @@ const Country = (props) => {
                 <p><span className="fw-bold">About: </span> {info}</p>
                 <p><span className="fw-bold">Cost: </span> ${cost}</p>
                 <p><span className="fw-bold">Continent: </span> {continent}</p>
+                <p><span className="fw-bold">Population: </span> {population}</p>
             </div>
             <div>
                 <button
