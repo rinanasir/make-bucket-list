@@ -1,18 +1,30 @@
 .country{
-    background-color: rgba(135, 207, 235, 0.562);
-    border: 1px solid goldenrod;
-    border-radius: 5px;
+    background-color: whitesmoke;
+    
+    border-radius: 10px;
     padding-bottom: 10px;
+    box-shadow: 10px 10px 20px gray;
 }
 .country img{
     padding: 10px;
     width: 300px;
-    height: 150px;
-    border-radius: 5px;
+    height: 200px;
+}
+.country-info{
+    text-align: left;
+    margin-left: 15px;
 }
 .text-color{
     color: rgb(243, 87, 30);
 }
 .country:hover{
-    background-color: lightgray;
+    background-color: rgb(250, 232, 199);
+}
+.btn-style{
+    background-color: rgb(245, 128, 86);
+    border: 1px solid whitesmoke;
+    font-style: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
 }

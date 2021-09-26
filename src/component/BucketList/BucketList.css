@@ -1,5 +1,9 @@
 .bucket-list{
-    border: 1px solid goldenrod;
-    border-radius: 5px;
     padding: 10px;
+}
+.text-color{
+    color: rgb(241, 82, 24);
+}
+.bucketlist-info{
+    text-align: left;
 }

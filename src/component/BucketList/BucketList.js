@@ -6,9 +6,18 @@ import './BucketList.css';
 const BucketList = () => {
     return (
         <div className="bucket-list">
-            <h3>Bucket List</h3>
-            <h5><FontAwesomeIcon icon={faGlobe} /> Country added: 0</h5>
-            <h5><FontAwesomeIcon icon={faDollarSign} /> Total cost: </h5>
+            <div>
+                <h2>Bucket<span className="text-color">List</span></h2>
+            </div>
+            <hr />
+            <div className="bucketlist-info">
+                <h5><FontAwesomeIcon icon={faGlobe} /> Country added: <span>0</span></h5>
+                <h5>Total cost: <FontAwesomeIcon icon={faDollarSign} /> <span>0</span></h5>
+            </div>
+            <hr />
+            <div className="bucketlist-info">
+                <li>place</li>
+            </div>
         </div>
     );
 };

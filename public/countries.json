@@ -1,13 +1,13 @@
 [
     {
-        "key": "ICE01RORA",
-        "continent": "Europe",
-        "name": "Iceland",
-        "populaton": 356991,
-        "place": "Aurora Borealis",
-        "info": "The northern lights",
-        "img": "https://media.istockphoto.com/photos/northern-light-aurora-borealis-at-kirkjufell-in-iceland-kirkjufell-picture-id1058181722?k=20&m=1058181722&s=612x612&w=0&h=Pifd_IPr-0FgVNaOHSnTlMUw65r95roOKY21oUS7JNY=",
-        "cost": 5000
+        "key": "KSA904IA",
+        "continent": "Asia",
+        "name": "Saudi Arab",
+        "populaton": 35478133,
+        "place": "Mecca",
+        "info": "Islam’s holiest city",
+        "img": "https://wallpaperaccess.com/full/813080.jpg",
+        "cost": 4000
     },
     {
         "key": "BDCOX120",
@@ -17,7 +17,37 @@
         "place": "Cox's Bazar",
         "info": "Worlds longest sea beach",
         "img": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/03/16/coxs_bazar_0.jpg?itok=gMrcn2Bp&timestamp=1584350574",
-        "cost": 2000
+        "cost": 2500
+    },
+    {
+        "key": "GER098OE",
+        "continent": "Europe",
+        "name": "Germany",
+        "populaton": 84113506,
+        "place": "Neuschwanstein Castle",
+        "info": "19th-century hilltop castle",
+        "img": "https://static.onecms.io/wp-content/uploads/sites/28/2017/04/01-neuschwanstein-castle-bavaria-NEUSCHWANSTEIN0417.jpg",
+        "cost": 9480
+    },
+    {
+        "key": "CND04TRN",
+        "continent": "North America",
+        "name": "Canada",
+        "populaton": 38148000,
+        "place": "Lake Louise",
+        "info": "Lake made with glacier water",
+        "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
+        "cost": 4490
+    },
+    {
+        "key": "ICE01RORA",
+        "continent": "Europe",
+        "name": "Iceland",
+        "populaton": 356991,
+        "place": "Aurora Borealis",
+        "info": "The northern lights",
+        "img": "https://media.istockphoto.com/photos/northern-light-aurora-borealis-at-kirkjufell-in-iceland-kirkjufell-picture-id1058181722?k=20&m=1058181722&s=612x612&w=0&h=Pifd_IPr-0FgVNaOHSnTlMUw65r95roOKY21oUS7JNY=",
+        "cost": 5400
     },
     {
         "key": "DB34PALM",
@@ -27,26 +57,66 @@
         "place": "Palm Jumeirah",
         "info": "A man made island",
         "img": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2008/04/25/jumeirah10a.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=36fc644e49040717e94b5b7a28e06fca",
-        "cost": 6000
+        "cost": 6870
+    },
+    {
+        "key": "TRK98IST",
+        "continent": "Europe",
+        "name": "Turkey",
+        "populaton": 85449351,
+        "place": "Cappadocia",
+        "info": "Üçhisar Castle & hot air balloon",
+        "img": "https://www.travelanddestinations.com/wp-content/uploads/2020/12/Cappadocia-landscape-and-balloons.jpg",
+        "cost": 5000
     },
     {
         "key": "BZ5R8IOD",
         "continent": "South America",
         "name": "Brazil",
         "populaton": 213372000,
-        "place": "Rio",
+        "place": "Rio de Janeiro",
         "info": "Christ the Redeemer Statue",
         "img": "https://www.airpano.com/files/rio_christ_vr_01_big.jpg",
-        "cost": 7000
+        "cost": 5300
     },
     {
-        "key": "CND04TRN",
-        "continent": "North America",
-        "name": "Canada",
-        "populaton": 38148000,
-        "place": "Lake Louise",
-        "info": "lake made with glacier water",
-        "img": "https://cf.bstatic.com/data/xphoto/1182x887/116/11685085.jpg?size=S",
-        "cost": 5000
+        "key": "PRU30SAT",
+        "continent": "South America",
+        "name": "Peru",
+        "populaton": 33534737,
+        "place": "Machu Picchu",
+        "info": "An ancient Incan city",
+        "img": "https://scitechdaily.com/images/Machu-Picchu-Peru.jpg",
+        "cost": 4900
+    },
+    {
+        "key": "MAL30ASA",
+        "continent": "Asia",
+        "name": "Maldives",
+        "populaton": 530953,
+        "place": "Dhangethi island",
+        "info": "Scuba and Snorkeling",
+        "img": "https://pbs.twimg.com/media/Dh46S9FUYAInrDP.jpg",
+        "cost": 10000
+    },
+    {
+        "key": "NZWD29HO",
+        "continent": "Oceania",
+        "name": "NewZealand",
+        "populaton": 4870383,
+        "place": "Hobbiton",
+        "info": "Shire, vilage of hobbits",
+        "img": "https://mldvwwasb8tu.i.optimole.com/5CC9Lzs.tb2a~61eeb/w:1500/h:1001/q:90/https://travelaway.me/wp-content/uploads/2015/05/hobitton-movie-set.jpg",
+        "cost": 7389
+    },
+    {
+        "key": "NTLND49E",
+        "continent": "Europe",
+        "name": "Netherlands",
+        "populaton": 17181517,
+        "place": "Keukenhof",
+        "info": "Flower garden of spring tulips",
+        "img": "https://media.istockphoto.com/photos/spring-flowers-in-a-park-picture-id686353046?k=20&m=686353046&s=612x612&w=0&h=tBkMNtooV7EJGHNGOHkCwC0yiWrmAq-PdJyo_wDkWxc=",
+        "cost": 8000
     }
 ]
