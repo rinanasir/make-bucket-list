@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome to BuckleUp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created with bootstrap and react [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
