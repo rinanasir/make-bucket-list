@@ -9,11 +9,8 @@ const BucketList = (props) => {
 
     const { bucketlist } = props;
     let total = 0;
-    // const countryName = [];
     for (const country of bucketlist) {
         total = total + country.cost;
-        // countryName.push(country.name);
-        // console.log(countryName);
     }
 
 
