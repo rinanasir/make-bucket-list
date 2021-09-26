@@ -4,7 +4,7 @@ import React from 'react';
 import './Country.css';
 
 const Country = (props) => {
-    console.log(props);
+    // console.log(props);
 
     // using destructuring to get object's properties
     const { name, place, info, cost, continent, img } = props.country;
@@ -23,7 +23,7 @@ const Country = (props) => {
             </div>
             <div>
                 <button
-                    onClick={props.handleAddToList}
+                    onClick={() => props.handleAddToList(props.country)}
                     type="button" className="btn-style"
                 ><FontAwesomeIcon icon={faShoppingCart} /> Add to list</button>
             </div>

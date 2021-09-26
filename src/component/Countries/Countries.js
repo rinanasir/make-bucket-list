@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import BucketList from '../BucketList/BucketList';
+import { faDollarSign, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Country from '../Country/Country';
 import './Countries.css';
 
 const Countries = () => {
     const [countries, setCountry] = useState([]);
+    const [bucketlist, setBucketlist] = useState([]);
 
     // loading countries data
     useEffect(() => {
@@ -13,8 +15,11 @@ const Countries = () => {
             .then(data => setCountry(data));
     }, []);
 
+    // event handler for Add to list button
     const handleAddToList = (country) => {
-        console.log('clicked');
+        // here we are creating a new array with previous list, and adding new selected country
+        const newBucketlist = [...bucketlist, country];
+        setBucketlist(newBucketlist);
     };
 
     return (
@@ -29,8 +34,19 @@ const Countries = () => {
                     </Country>)
                 }
             </div>
-            <div>
-                <BucketList></BucketList>
+            <div className="bucket-list">
+                <div>
+                    <h2>Bucket<span className="text-color">List</span></h2>
+                </div>
+                <hr />
+                <div className="bucketlist-info">
+                    <h5><FontAwesomeIcon icon={faGlobe} /> Country added: {bucketlist.length}</h5>
+                    <h5>Total cost: <FontAwesomeIcon icon={faDollarSign} /> <span>0</span></h5>
+                </div>
+                <hr />
+                <div className="bucketlist-info">
+                    <li>place</li>
+                </div>
             </div>
         </div>
     );
